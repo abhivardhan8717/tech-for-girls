@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9ff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #0f0e0f;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff4b91;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.share-section {
+  margin-top: 20px;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
+/* Smooth hover effect for buttons */
+button:hover {
+  background-color: #ff2671;
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+input:focus {
+  border: 2px solid #ff4b91;
+  outline: none;
+  box-shadow: 0 0 8px #ffb3d9;
+  transition: 0.2s;
+}
+
+/* Page fade-in animation */
+body {
+  animation: fadeIn 0.7s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
