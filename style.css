@@ -39,7 +39,7 @@ input[type="file"] {
 button {
   margin-top: 20px;
   padding: 10px;
-  background-color: #ff4b91;
+  background-color: #292728;
   color: white;
   border: none;
   border-radius: 6px;
@@ -50,7 +50,7 @@ button {
 
 button:disabled {
   background-color: #ccc;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .share-section {
@@ -66,16 +66,16 @@ button:disabled {
 
 /* Smooth hover effect for buttons */
 button:hover {
-  background-color: #ff2671;
+  background-color: #ef0194;
   transform: scale(1.03);
   transition: all 0.3s ease-in-out;
 }
 
 /* Input focus effect */
 input:focus {
-  border: 2px solid #ff4b91;
+  border: 2px solid #111011;
   outline: none;
-  box-shadow: 0 0 8px #ffb3d9;
+  box-shadow: 0 0 8px #191819;
   transition: 0.2s;
 }
 
